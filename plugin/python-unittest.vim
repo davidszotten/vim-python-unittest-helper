@@ -1,7 +1,7 @@
 " ============================================================================
 " File:        python-unittest-helper.vim
 " Description: vim global plugin to put the path for lazy unittest authors
-"              puts "file.class.function" into system clip board
+"              puts 'file.class.function' into system clip board
 " Maintainer:  David Szotten <full name as one word@gmail.com>
 " License:     MIT
 " Notes:       First attempt at a vim plugin, be nice please
