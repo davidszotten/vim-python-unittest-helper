@@ -33,7 +33,7 @@ function! s:IdentyfyTest()
     normal! wvey
     let klass = @@
 
-    let file =  expand('%:t')
+    let file =  expand('%:t:r')
 
     " assign result to system clipboard
     let @* = join([file, klass, func], ".")
