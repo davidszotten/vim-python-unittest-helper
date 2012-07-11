@@ -3,7 +3,7 @@
 
 ## Description
 
-Vim global plugin to put the path for lazy python unittest authors.
+Vim global plugin for lazy python unittest authors.
 Puts `file.class.function` into system clipboard.
 
 ## Installation
