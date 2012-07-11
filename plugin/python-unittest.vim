@@ -9,8 +9,7 @@
 " ============================================================================
 
 
-
-nnoremap <leader>u :<C-U>call <SID>IdentyfyTest()<cr>
+command! -nargs=0 IdentyfyTest call s:IdentyfyTest()
 
 function! s:IdentyfyTest()
     let saved_unnamed_register = @@
